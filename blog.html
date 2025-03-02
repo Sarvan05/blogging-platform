@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container home" id="homePage">
+        <div class="left-content">
+            <h1>InsightHub</h1>
+            <p class="description">A space for sharp insights and fresh ideas on various topics. Read, explore, and stay inspired.</p>
+            <button id="createPostBtn">Create a Blog</button>
+        </div>
+        <div class="right-content">
+            <img src="blog.jpg" alt="Blog Image" class="blog-image">
+        </div>
+    </div>
+
+    <div id="postFullScreen" class="fullscreen" style="display: none;">
+        <div class="fullscreen-content">
+            <h2>Write Your Blog</h2>
+            <input type="text" id="postTitle" placeholder="Post Title">
+            <textarea id="postContent" placeholder="Write your post here..."></textarea>
+            <button id="publishPost">Publish</button>
+            <button id="backToHome">Back</button>
+        </div>
+    </div>
+
+    <main id="postsContainer" class="container" style="display: none;">
+        <h2>Recent Posts</h2>
+        <div id="posts"></div>
+        <button id="backToCreate">Back</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
