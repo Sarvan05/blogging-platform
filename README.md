@@ -1,3 +1,7 @@
+# contributers
+Name: Sarvan dattu Perumalla
+22BCE7623
+
 # Blogging Platform
 
 A simple blogging platform where users can create, like, comment, and share posts.
