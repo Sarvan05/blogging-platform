@@ -20,4 +20,4 @@ A simple blogging platform where users can create, like, comment, and share post
 ## Setup
 Clone this repository using:
 ```sh
-git clone https://github.com/Sarvan05/blogging-platform.git
+git clone https://github.com/yourusername/blogging-platform.git
